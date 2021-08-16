@@ -30,6 +30,12 @@ body {
     line-height: 2;
 }
 
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+}
 /*---------- Global ----------*/
 .container {
     /*max-width: 120rem;
@@ -152,4 +158,13 @@ img {
 
 .nav__link:hover{
     color: var(--aqua);
+}
+
+
+.aboutme-section {
+    display: block;
+    height:100%;
+    width:100%;
+    padding: 60px;
+    box-sizing:border-box;
 }
