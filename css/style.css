@@ -109,7 +109,7 @@ img {
     display: none;
 }
 .menu-btn {
-    position: relative;
+    /*position: relative;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -185,6 +185,13 @@ img {
     font-weight: 400;
 }
 
+.bar-in-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
 @media (min-width: 768px) {
     .header__texto {
         padding-top: 20rem;
@@ -195,14 +202,7 @@ img {
         justify-content: space-between;
         align-items: center;
         padding-top: 1rem;
-    } 
-    
-    .bar-in-section {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 1rem;
-    }  
+    }   
 
     .menu-btn {
         display: none;
