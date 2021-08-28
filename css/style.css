@@ -28,6 +28,7 @@ body {
     font-family: var(--generalFont);
     font-size: 1.6rem;
     line-height: 2;
+    color: var(--blue)
 }
 
 html, body {
@@ -200,7 +201,14 @@ img {
     display: block;
     height:100%;
     width:100%;
-    padding: 10% 5%;
+    padding: 7% 5%;
     box-sizing:border-box;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .general-section {
+        padding: 7% 5%;
+    }
+
 }
