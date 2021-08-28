@@ -188,6 +188,13 @@ img {
     color: var(--aqua);
 }
 
+.selected-nav {
+    background-color: var(--lightaqua);
+    color: var(--blue);
+    height: 100%;
+    padding: 0 1rem;
+    border-radius: 20rem;
+}
 
 .general-section {
     display: block;
