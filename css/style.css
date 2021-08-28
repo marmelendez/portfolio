@@ -38,10 +38,10 @@ html, body {
 }
 /*---------- Global ----------*/
 .container {
-    /*max-width: 120rem;
-    width: 90%;*/
-    width: min(90%, 120rem); /*aplica valor minimo*/
-    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2rem;
 }
 
 a {
@@ -86,6 +86,10 @@ img {
     text-align: center;
 }
 
+/*---------- Nav bar ----------*/
+
+
+
 /*---------- Header ----------*/
 .webp .header {
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(49, 50, 111, 0.7)), url(../img/hero-background.webp) no-repeat; /*cover.webp*/
@@ -106,18 +110,16 @@ img {
 .header__texto {
     color: white;
     text-align: center;
-    margin-top: 10rem;
+    padding-top: 35rem;
 }
 
 .header__texto h2 {
     font-weight: 400;
 }
 
-
-
 @media (min-width: 768px) {
     .header__texto {
-        margin-top: 20rem;
+        padding-top: 20rem;
     }
 
     .bar {
