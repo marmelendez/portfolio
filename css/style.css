@@ -94,7 +94,6 @@ img {
 }
 
 .bar-in-section {
-    position: fixed;
     top: 0;
     width: 100%;
     padding: 1% 5%;
@@ -198,17 +197,9 @@ img {
 }
 
 .general-section {
-    display: block;
-    height:100%;
-    width:100%;
-    padding: 7% 5%;
-    box-sizing:border-box;
     text-align: center;
 }
 
 @media (min-width: 768px) {
-    .general-section {
-        padding: 7% 5%;
-    }
 
 }
