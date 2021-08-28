@@ -105,6 +105,9 @@ img {
     color: var(--orange)
 }
 
+.nav {
+    display: none;
+}
 .menu-btn {
     position: relative;
     display: flex;
@@ -156,7 +159,6 @@ img {
     transform: rotate(-45deg) translate(35px, 35px);
 }
 
-
 .webp .header {
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(49, 50, 111, 0.7)), url(../img/hero-background.webp) no-repeat; /*cover.webp*/
     background-size: cover;
@@ -203,7 +205,7 @@ img {
     }  
 
     .menu-btn {
-        
+        display: none;
     }
 }
 
