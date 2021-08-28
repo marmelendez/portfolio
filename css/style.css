@@ -37,13 +37,6 @@ html, body {
     padding:0;
 }
 /*---------- Global ----------*/
-.container {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 2rem;
-}
-
 a {
     text-decoration: none;
 }
@@ -91,6 +84,27 @@ img {
 
 
 /*---------- Header ----------*/
+
+.bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1% 5%;
+}
+
+.bar-in-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1% 5%;
+    background-color: var(--aqua);
+    box-shadow: 16px 17px 15px 0px #EBEBEB;
+}
+
+.bar-in-section a:hover {
+    color: var(--blue)
+}
+
 .webp .header {
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(49, 50, 111, 0.7)), url(../img/hero-background.webp) no-repeat; /*cover.webp*/
     background-size: cover;
@@ -127,7 +141,14 @@ img {
         justify-content: space-between;
         align-items: center;
         padding-top: 1rem;
-    }   
+    } 
+    
+    .bar-in-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1rem;
+    }  
 }
 
 .logo {
@@ -141,6 +162,11 @@ img {
 
 .logo__bold {
     color: var(--orange);
+    font-weight: 700;
+}
+
+.logo__bold-in-section {
+    color: var(--white);
     font-weight: 700;
 }
 
@@ -167,6 +193,7 @@ img {
     display: block;
     height:100%;
     width:100%;
-    padding: 60px;
+    padding: 10% 5%;
     box-sizing:border-box;
+    text-align: center;
 }
