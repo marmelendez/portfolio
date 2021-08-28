@@ -7,12 +7,12 @@ font-family: 'Work Sans', sans-serif;
     --generalFont: 'Work Sans', sans-serif;
     --mainFont: 'Raleway', sans-serif;
 
-    --white: #fff;
+    --white: #F6F5F5;
     --black: rgb(0, 0, 0);
-    --blue: #31326F;
-    --orange: #FFC93C;
+    --blue: #070D59; /*31326F*/
+    --orange: #EE6F57;
     --aqua: #9DDFD3;
-    --lightaqua: #DBF6E9;
+    --lightaqua: #1F3C88; /*DBF6E9*/
 }
 
 html {
@@ -97,13 +97,65 @@ img {
     top: 0;
     width: 100%;
     padding: 1% 5%;
-    background-color: var(--aqua);
+    background-color: var(--blue);
     box-shadow: 16px 17px 15px 0px #EBEBEB;
 }
 
 .bar-in-section a:hover {
-    color: var(--blue)
+    color: var(--orange)
 }
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.menu-btn__burger {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.menu-btn__burger::before {
+    transform: translateY(-8px);
+}
+.menu-btn__burger::after {
+    transform: translateY(8px);
+}
+
+.menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
 
 .webp .header {
     background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(49, 50, 111, 0.7)), url(../img/hero-background.webp) no-repeat; /*cover.webp*/
@@ -149,6 +201,10 @@ img {
         align-items: center;
         padding-top: 1rem;
     }  
+
+    .menu-btn {
+        
+    }
 }
 
 .logo {
@@ -185,12 +241,12 @@ img {
 }
 
 .nav__link:hover{
-    color: var(--aqua);
+    color: var(--orange);
 }
 
 .selected-nav {
     background-color: var(--lightaqua);
-    color: var(--blue);
+    color: var(--orange);
     height: 100%;
     padding: 0 1rem;
     border-radius: 20rem;
