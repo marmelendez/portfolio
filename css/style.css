@@ -101,12 +101,6 @@ img {
     box-shadow: 16px 17px 15px 0px #EBEBEB;
 }
 
-.bar-in-section a:hover {
-    color: var(--orange);
-    font-size: 1.8rem;
-    transition: all .3s ease-in-out;
-}
-
 .nav {
     display: none;
 }
@@ -246,6 +240,8 @@ img {
 
 .nav__link:hover{
     color: var(--orange);
+    font-size: 1.8rem;
+    transition: all .5s ease-in-out;
 }
 
 .selected-nav {
@@ -256,6 +252,12 @@ img {
     border-radius: 20rem;
 }
 
+.selected-nav:hover{
+    color: var(--white);
+    font-size: 1.8rem;
+    transition: all .3s ease-in-out;
+}
+
 .general-section {
     text-align: center;
     padding: 0 5%;
@@ -263,6 +265,7 @@ img {
 
 .aboutme-description {
     text-align: justify;
+    padding: 2rem;
 }
 
 .aboutme-img a {
@@ -284,6 +287,45 @@ img {
     }
 
     .aboutme-description {
-        width: 70%;
+        width: 60%;
       }
 }
+
+.contact-links-img {
+    background-color: var(--orange);
+    border-radius: 5rem;
+    padding: 2rem 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact-img {
+    padding: 2rem 0;
+    border: 2px solid #fff;
+    border-radius: 5rem;
+}
+
+.contact-links a{
+    color: var(--white);
+    font-size: 1.6rem;
+    padding: 1rem
+}
+
+.contact-links a:hover{
+    color: var(--blue);
+    background-color: var(--white);
+    font-size: 1.8rem;
+    transition: all .5s ease-in-out;
+    border-radius: 20rem;
+}
+
+.contact-img a {
+    color: var(--lightaqua);
+    font-size: 10px;
+}
+
+.contact-img a:hover{
+    color: var(--blue);
+    font-size: 12px;
+    transition: all .3s ease-in-out;
+}
+

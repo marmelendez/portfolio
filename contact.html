@@ -13,6 +13,7 @@
 
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Work+Sans&display=swap" crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cacdd04d0e.js" crossorigin="anonymous"></script>
     
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
@@ -37,9 +38,64 @@
         </div>
     </header>
 
+    <main>
     <section class="general-section">
         <h1>Contact</h1>
+
+        <div class="contact-info">
+
+            <div class = "contact-links-img">
+
+                <div class = "contact-links">
+                    <div>
+                        <span style="font-size: 32px; color: var(--white);"> <i class="fab fa-linkedin"></i> </span>
+                        <a href="https://www.linkedin.com/in/maribel-melendezd/" target="_blank">Linkedin</a>
+                    </div>
+                    <div>
+                        <span style="font-size: 32px; color: var(--white);"><i class="fab fa-github"></i></span>
+                        <a href="https://github.com/marmelendez" target="_blank">Github</a>
+                    </div>
+                    <div>
+                        <span style="font-size: 32px; color: var(--white);"><i class="fab fa-twitter"></i></span>
+                        <a href="https://twitter.com/marFly_" target="_blank">Twitter</a>
+                    </div>
+                    <div>
+                        <span style="font-size: 32px; color: var(--white);"><i class="fab fa-youtube"></i></span>
+                        <a href="https://www.youtube.com/channel/UCkPpFxO-4AcTU6CYrW_MZhQ" target="_blank">Youtube</a>
+                    </div>
+                </div>
+
+                <div class="contact-img">
+                    <iframe src="https://giphy.com/embed/qQRfz2VfUbDeebczif" width="100%" height="100%" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <a href="https://giphy.com/gifs/smart-working-work-hard-qQRfz2VfUbDeebczif">via GIPHY</a>
+                </div>
+                
+            </div>
+            
+        
+            <form class="form">
+                <div class="field">
+                    <label class="field__label" for="nombre">Name</label>
+                    <input class="field__area" type="text" id="nombre" placeholder="Enter your name">
+                </div>
+        
+                <div class="field">
+                    <label class="field__label" for="email">Email</label>
+                    <input class="field__area" type="email" id="email" placeholder="Now your email please">
+                </div>
+        
+                <div class="field">
+                    <label class="field__label" for="mensaje">Mensaje</label>
+                    <textarea class="field__area field__area--textarea" id="mensaje" placeholder="Just a message"></textarea>            
+                </div>
+        
+                <div class="field">
+                    <input type="submit" value="enviar" class="button primary--button">
+                </div>
+            </form>
+        </div>
     </section>
+    </main>
 
     <script src="js/modernizr.js"></script>
     <script src="js/main.js"></script>
