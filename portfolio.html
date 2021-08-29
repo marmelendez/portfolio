@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio Maribel Melendez">
     
-    <title>Mar's Portfolio</title>
+    <title>Mar Melendez</title>
     <!--Preload-->
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
@@ -19,125 +19,144 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header id="home">
-            <div class="bar-in-section">
-                <a href="index.html" class="logo">
-                    <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>
-                </a>
+    <header id="home"> <!--START OF TOP BAR-->
+        <div class="bar-in-section">
+            <a href="index.html" class="logo">
+                <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>                
+            </a>
 
-                <nav class="nav">
-                    <a href="index.html" class="nav__link">Home</a>
-                    <a href="aboutme.html" class="nav__link">About me</a>
-                    <a href="resume.html" class="nav__link">Achievements</a>
-                    <a href="portfolio.html" class="nav__link selected-nav">Portfolio</a>
-                    <a href="contact.html" class="nav__link">Contact</a>
-                </nav>
-
-                <div class="menu-btn" id="menu">
-                    <div class="menu-btn__burger">
-                    </div>
-                </div>
-        </div>
-    </header>
+            <nav class="nav" id="menu-links">
+                <a href="index.html" class="nav__link">Home</a>
+                <a href="aboutme.html" class="nav__link">About me</a>
+                <a href="resume.html" class="nav__link">Achievements</a>
+                <a href="portfolio.html" class="nav__link selected-nav">Portfolio</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+            </nav>
+            
+            <div class="menu-btn" id="menu">
+                <div class="menu-btn__burger"></div>
+            </div>
+    </header> <!--END OF TOP BAR-->
 
     <main class="general-section">
-        <h1 class="general-section-title">Portfolio</h1>
-        <div class="download-resume">
+        <h1 class="general-section-title" id="title">Portfolio</h1>
+        <div class="download-resume"> <!--START OF RESUME BTN-->
             <span style="font-size: 24px; color: var(--orange);"> <i class="fas fa-file"></i></span>
             <a href="myresume.pdf" target="blank">My Resume</a>
-        </div>
+        </div> <!--END OF RESUME BTN-->
 
-        <div class="vl"></div>
-
-        <section class="work-container">
-            <div class="project-item">
-                <div class="project-img">
-                    <img src="img/contact.png" alt="Persons talking">
-                </div>
-
-                <div class="project-description">
-                    <h3 class="no-margin no-padding">My portfolio</h3>
-                    <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> Java GUI, Sql </span></h4>
-                    <h4 class="subtitle no-margin no-padding">Description:</h4>
-                    <p class="no-margin no-padding">Vestibulum malesuada urna id metus dapibus euismod. Proin facilisis tellus nec facilisis maximus. Nunc pharetra eget nisi quis fringilla. Etiam placerat lobortis lacinia</p>
-                </div>
-            </div>
-
-            <div class="project-item">
-                <div class="project-img">
-                    <img src="img/contact.png" alt="Persons talking">
-                </div>
-
-                <div class="project-description">
-                    <h3 class="no-margin no-padding">My portfolio</h3>
-                    <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> Java GUI, Sql </span></h4>
-                    <h4 class="subtitle no-margin no-padding">Description:</h4>
-                    <p class="no-margin no-padding">Vestibulum malesuada urna id metus dapibus euismod. Proin facilisis tellus nec facilisis maximus. Nunc pharetra eget nisi quis fringilla. Etiam placerat lobortis lacinia</p>
-
-                    <div class="btn-repository">
-                        <span style="font-size: 28px; color: var(--white);"><i class="fas fa-running"></i></i></span>
-                        <a href="">Check game</a>
-                    </div>
-                </div>
-                
-            </div>
-
-            <div class="project-item">
-                <div class="project-img">
-                    <img src="img/contact.png" alt="Persons talking">
-                </div>
-
-                <div class="project-description">
-                    <h3 class="no-margin no-padding">My portfolio</h3>
-                    <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> Java GUI, Sql </span></h4>
-                    <h4 class="subtitle no-margin no-padding">Description:</h4>
-                    <p class="no-margin no-padding">Vestibulum malesuada urna id metus dapibus euismod. Proin facilisis tellus nec facilisis maximus. Nunc pharetra eget nisi quis fringilla. Etiam placerat lobortis lacinia</p>
-
-                    <div class="btn-repository">
-                        <span style="font-size: 28px; color: var(--white);"> <i class="fab fa-github"></i></span>
-                        <a href="">Check repository</a>
+        <section class="work-container"> <!--START OF WORK SECTION-->
+            
+            <div class="project-item"> <!--START OF GAME PROJECT-->
+                <h3 class="no-margin no-padding project-title">Endless runner game</h3>
+                <div class="project-item-flex">
+                    <div class="project-img">
+                        <img src="img/projectGame.jpg" alt="Game interface">
                     </div>
 
-                    <div class="btn-repository">
-                        <span style="font-size: 28px; color: var(--white);"><i class="fas fa-window-maximize"></i></i></span>
-                        <a href="">Visit website</a>
+                    <div class="project-description">
+                        <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> Unity, C# </span></h4>
+                        <h4 class="subtitle no-margin no-padding">Description:</h4>
+                        <p class="no-margin no-padding">School project in which I developed a 2D endless runner game.</p>
+
+                        <div class="btn-repository">
+                            <span style="font-size: 28px; color: var(--white);"><i class="fas fa-running"></i></i></span>
+                            <a href="https://simmer.io/@marfly_/endless-game" target="blank">Check game</a>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </div>  
+            </div> <!--END OF GAME PROJECT-->
 
-            <div class="project-item">
-                <div class="project-img">
-                    <img src="img/contact.png" alt="Persons talking">
-                </div>
-
-                <div class="project-description">
-                    <h3 class="no-margin no-padding">My portfolio</h3>
-                    <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> Java GUI, Sql </span></h4>
-                    <h4 class="subtitle no-margin no-padding">Description:</h4>
-                    <p class="no-margin no-padding">Vestibulum malesuada urna id metus dapibus euismod. Proin facilisis tellus nec facilisis maximus. Nunc pharetra eget nisi quis fringilla. Etiam placerat lobortis lacinia</p>
-
-                    <div class="btn-repository">
-                        <span style="font-size: 28px; color: var(--white);"> <i class="fab fa-github"></i></span>
-                        <a href="">Check repository</a>
+            <div class="project-item"> <!--START OF MOBILE APP-->
+                <h3 class="no-margin no-padding project-title">Clothing store mobile application</h3>
+                <div class="project-item-flex">
+                    <div class="project-img project-img-app">
+                        <img src="img/projectApp.png"  alt="Mobile app interface">
                     </div>
 
-                    <div class="btn-repository">
-                        <span style="font-size: 28px; color: var(--white);"><i class="fas fa-window-maximize"></i></i></span>
-                        <a href="">Visit website</a>
+                    <div class="project-description">
+                        <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> Android, Java, Kotlin, XML </span></h4>
+                        <h4 class="subtitle no-margin no-padding">Description:</h4>
+                        <p class="no-margin no-padding">Team project for the course "Mobile development with Android". I designed the screens of the app and implement some of them. Also create a validatio program with Java. </p>
+
+                        <div class="btn-repository">
+                            <span style="font-size: 28px; color: var(--white);"> <i class="fab fa-github"></i></span>
+                            <a href="https://github.com/marmelendez/moda-store-android-app" target="blank">Check repository</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </div>  <!--END OF MOBILE APP-->
 
+            <div class="project-item">  <!--START OF PORTFOLIO PROJECT-->
+                <h3 class="no-margin no-padding project-title">My portfolio</h3>
+                <div class="project-item-flex">
+                    <div class="project-img">
+                        <img src="img/projectPortfolio.png" alt="Persons talking">
+                    </div>
+    
+                    <div class="project-description">
+                        <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> HTML, CSS and JavaScript </span></h4>
+                        <h4 class="subtitle no-margin no-padding">Description:</h4>
+                        <p class="no-margin no-padding">My first personal front-end website project. I learned a lot and had the opportunity to apply what i learned from other guided projects.</p>
+    
+                        <div class="btn-repository">
+                            <span style="font-size: 28px; color: var(--white);"> <i class="fab fa-github"></i></span>
+                            <a href="https://github.com/marmelendez/portfolio" target="blank">Check repository</a>
+                        </div>
+    
+                        <div class="btn-repository">
+                            <span style="font-size: 28px; color: var(--white);"><i class="fas fa-laptop-code"></i></i></i></span>
+                            <a href="https://marmelendez.netlify.app/" target="blank">Visit website</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--END OF PORTFOLIO PROJECT-->
 
+            <div class="project-item"> <!--START OF BLOG FRONT-END PAGE-->
+                <h3 class="no-margin no-padding project-title">Language blog</h3>
+                <div class="project-item-flex">
+                    <div class="project-img">
+                        <img src="img/projectBlog.jpg" alt="Blog front-end page">
+                    </div>
 
-        </section>
+                    <div class="project-description">
+                        <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> HTML, CSS and JavaScript </span></h4>
+                        <h4 class="subtitle no-margin no-padding">Description:</h4>
+                        <p class="no-margin no-padding">Made the front-end page of a language blog. This was a guided project from an Udemy Web development course. </p>
+                    
+                        <div class="btn-repository">
+                            <span style="font-size: 28px; color: var(--white);"> <i class="fab fa-github"></i></span>
+                            <a href="https://github.com/marmelendez/blog-idiomas" target="blank">Check repository</a>
+                        </div>
 
+                        <div class="btn-repository">
+                            <span style="font-size: 28px; color: var(--white);"><i class="fas fa-laptop-code"></i></i></i></span>
+                            <a href="https://blog-idiomi.netlify.app/index.html" target="blank">Visit website</a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--END OF BLOG FRONT-END PAGE-->
+            
+            <div class="project-item"> <!--START OF CUSTUMER CONTROL SYSTEM-->
+                <h3 class="no-margin no-padding project-title">Custumer control system</h3>
+                <div class="project-item-flex">
+                    <div class="project-img">
+                        <img src="img/projectJava.jpg" alt="Java desktop app">
+                    </div>
 
+                    <div class="project-description">
+                        <h4 class="subtitle no-margin no-padding">Tecnologies:<span class="tecnologies"> Java GUI, Sql </span></h4>
+                        <h4 class="subtitle no-margin no-padding">Description:</h4>
+                        <p class="no-margin no-padding">Designed and developed a java desktop application for a family business with a Sql database.</p>
+                    </div>
+                </div>
+            </div> <!--END OF CUSTUMER CONTROL SYSTEM-->
+        </section> <!--END OF WORK SECTION-->
     </main>
 
     
     <script src="js/modernizr.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/hamburger-btn-general.js"></script>
 
 </body>
 </html>

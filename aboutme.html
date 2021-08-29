@@ -18,36 +18,31 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header id="home">
-            <div class="bar-in-section">
-                <a href="index.html" class="logo">
-                    <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>
-                </a>
+    <header id="home">  <!--START OF TOP BAR-->
+        <div class="bar-in-section">
+            <a href="index.html" class="logo">
+                <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>                
+            </a>
 
-                <nav class="nav">
-                    <a href="index.html" class="nav__link">Home</a>
-                    <a href="aboutme.html" class="nav__link selected-nav">About me</a>
-                    <a href="resume.html" class="nav__link">Achievements</a>
-                    <a href="portfolio.html" class="nav__link">Portfolio</a>
-                    <a href="contact.html" class="nav__link">Contact</a>
-                </nav>
-                <div class="menu-btn" id="menu">
-                    <div class="menu-btn__burger">
-                    </div>
-                </div>
-        </div>
-    </header>
-    <script src="js/modernizr.js"></script>
-    <script src="js/main.js"></script>
-
-    <section class="general-section">
-        <h1 class="general-section-title">About me</h1>
-        <div class="general-section-content">
-            <div class="aboutme-img">
-                <img src="img/aboutme.png" alt="Programmer sitting">
+            <nav class="nav" id="menu-links">
+                <a href="index.html" class="nav__link">Home</a>
+                <a href="aboutme.html" class="nav__link selected-nav">About me</a>
+                <a href="resume.html" class="nav__link">Achievements</a>
+                <a href="portfolio.html" class="nav__link">Portfolio</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+            </nav>
+            
+            <div class="menu-btn" id="menu">
+                <div class="menu-btn__burger"></div>
             </div>
-            <div class= "aboutme-description">
-                <p>Hi my name is Maribel Melendez. I’m currently studying my fifth semester of B.S. in Computer Science and Technology at Tecnológico de Monterrey in Jalisco, Mexico. 
+    </header> <!--END OF TOP BAR-->
+
+    <main>
+        <section class="general-section"> <!--START OF ABOUT ME DESCRIPTION-->
+            <h1 class="general-section-title" id="title">About me</h1>
+            <div class="general-section-content">
+                <img src="img/aboutme.png" class="aboutme-img" alt="Person">
+                <p class= "aboutme-description">Hi my name is Maribel Melendez. I’m currently studying my fifth semester of B.S. in Computer Science and Technology at Tecnológico de Monterrey in Jalisco, Mexico. 
                     I'm passionate about my career, and i'm also interested in design and digital art. 
                     Not too much time ago, i wrote my first hello world! program, since that i decided i want to continue learning more about programming and i have been enjoying this path. <br><br>
     
@@ -58,7 +53,10 @@
                     - Web and mobile design and development<br>
                     - Cybersecurity</p>
             </div>
-        </div>
-    </section>
+        </section> <!--END OF ABOUT ME DESCRIPTION-->
+    </main>
+
+    <script src="js/modernizr.js"></script>
+    <script src="js/hamburger-btn-general.js"></script>
 </body>
 </html>

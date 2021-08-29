@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio Maribel Melendez">
     
-    <title>Mar's Portfolio</title>
+    <title>Mar Melendez</title>
     <!--Preload-->
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
@@ -17,32 +17,36 @@
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header class="header" id="home">
-            <div class="bar">
-                <a href="index.html" class="logo">
-                    <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>                </a>
 
-                <nav class="nav">
-                    <a href="index.html" class="nav__link selected-nav">Home</a>
-                    <a href="aboutme.html" class="nav__link">About me</a>
-                    <a href="resume.html" class="nav__link">Achievements</a>
-                    <a href="portfolio.html" class="nav__link">Portfolio</a>
-                    <a href="contact.html" class="nav__link">Contact</a>
-                </nav>
-                <div class="menu-btn" id="menu">
-                    <div class="menu-btn__burger">
-                    </div>
-                </div>
+<body class="homepage-bg">
+    <header id="home"> <!--START OF TOP BAR-->
+        <div class="bar">
+            <a href="index.html" class="logo">
+                <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>                
+            </a>
+
+            <nav class="nav" id="menu-links">
+                <a href="index.html" class="nav__link selected-nav">Home</a>
+                <a href="aboutme.html" class="nav__link">About me</a>
+                <a href="resume.html" class="nav__link">Achievements</a>
+                <a href="portfolio.html" class="nav__link">Portfolio</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+            </nav>
+            
+            <div class="menu-btn" id="menu">
+                <div class="menu-btn__burger"></div>
+            </div>
+    </header> <!--END OF TOP BAR-->
+
+    <main> <!--START OF MAIN TITLE-->
+        <div class="header-text" id="title">
+            <h2 class="no-margin"> Hi there!, I'm</h2>
+            <h1 class="no-margin" > Mar Melendez</h2>
+            <p class="no-margin"> thanks for visiting my personal web site</p>
         </div>
-        <div class="header__texto">
-            <h2 class="no-margin"> I'm</h2>
-            <h1 class="no-margin"> Maribel Melendez</h2>
-            <p class="no-margin"> A computer science student</p>
-        </div>
-    </header>
-    
+    </main> <!--END OF MAIN TITLE-->
+
     <script src="js/modernizr.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/hamburger-btn.js"></script>
 </body>
 </html>

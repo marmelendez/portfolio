@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio Maribel Melendez">
     
-    <title>Mar's Portfolio</title>
+    <title>Mar Melendez</title>
     <!--Preload-->
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
@@ -19,58 +19,58 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header id="home">
-            <div class="bar-in-section">
-                <a href="index.html" class="logo">
-                    <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>
-                </a>
+    <header id="home"> <!--START OF TOP BAR-->
+        <div class="bar-in-section">
+            <a href="index.html" class="logo">
+                <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>                
+            </a>
 
-                <nav class="nav">
-                    <a href="index.html" class="nav__link">Home</a>
-                    <a href="aboutme.html" class="nav__link">About me</a>
-                    <a href="resume.html" class="nav__link selected-nav">Achievements</a>
-                    <a href="portfolio.html" class="nav__link">Portfolio</a>
-                    <a href="contact.html" class="nav__link">Contact</a>
-                </nav>
-                <div class="menu-btn" id="menu">
-                    <div class="menu-btn__burger">
-                    </div>
-                </div>
+            <nav class="nav" id="menu-links">
+                <a href="index.html" class="nav__link">Home</a>
+                <a href="aboutme.html" class="nav__link">About me</a>
+                <a href="resume.html" class="nav__link selected-nav">Achievements</a>
+                <a href="portfolio.html" class="nav__link">Portfolio</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+            </nav>
+            
+            <div class="menu-btn" id="menu">
+                <div class="menu-btn__burger"></div>
             </div>
-    </header>
+    </header> <!--END OF TOP BAR-->
 
     <main class="general-section">
-
-        <h1 class="general-section-title">Achievements</h1>
+        <h1 class="general-section-title" id="title">Achievements</h1> 
+        
         <p class="achievement-section-links">
-            <a href="#programs">Programs</a> |
-            <a href="#certifications">Certifications</a>
+            <a href="#programs">Programs</a> | <a href="#certifications">Certifications</a>
         </p>
 
-        <span style="font-size: 32px; color: var(--orange);"> <i class="fas fa-star"></i> </span>
+        <!--START OF PROGRAMS-->
+        <span style="font-size: 32px; color: var(--orange);"> <i class="fas fa-star"></i></span>
         <h2 class="no-margin no-padding" id="programs">Programs</h2>
 
         <section class="achievement-section">
             <div class="program-item">
-                <img src="img/mlsa.png" alt="ABSC program" width=100%>
+                <img src="img/mlsa.png" alt="MLSA alpha milestone" width=100%>
                 <h3>Microsoft Learn Student Ambassador</h3>
-                <p>I'm part of the MLSA program since july 2021.</p>
+                <p>I'm part of the MLSA program since july 2021. I been promoted to alpha and it's a really big community i'm grateful to be part of.</p>
             </div>
     
             <div class="program-item">
                 <img src="img/abcs.png" alt="ABSC program" width=100%>
                 <h3>Facebook Above and Beyond Computer Science (ABCS)</h3>
-                <p>I'm part of the MLSA program since july 2021.</p>
+                <p>I'm ready and excited to start this new experience on August 2021.</p>
             </div>
     
             <div class="program-item">
                 <img src="img/beduscholarship.png" alt="Santader Bedu Scholarship" width=100%>
                 <h3>Scholarship for App development in Android from Santander and Bedu</h3>
-                <p>I'm part of the MLSA program since july 2021.</p>
+                <p>On may 2021 i got a scholarship from Santander and Bedu for a mobile design and development course on android.</p>
             </div>
-        </section>
+        </section> <!--END OF PROGRAMS-->
     
 
+        <!--START OF CERTIFICATES-->
         <span style="font-size: 32px; color: var(--orange);">  <i class="fas fa-certificate"></i></span>
         <h2 class="no-margin no-padding" id="certifications">Certifications</h2>
 
@@ -84,13 +84,18 @@
                 <h3>Introduction to Cloud Development with HTML, CSS, and JavaScript</h3>
             </div>
             <div class="program-item">
-                <iframe src="pdf/tec.pdf" width="100%" height="auto"></iframe>
-                <h3>Merito académico</h3>
+                <iframe src="pdf/reconocimiento.pdf" width="100%" height="auto"></iframe>
+                <h3>Recognition of academic merit</h3>
             </div>
-        </section>
+
+            <div class="program-item">
+                <iframe src="pdf/chatbot.pdf" width="100%" height="auto"></iframe>
+                <h3>AI Chatbots Without Programming</h3>
+            </div>
+        </section> <!--END OF CERTIFICATES-->
     </main>
 
     <script src="js/modernizr.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/hamburger-btn-general.js"></script>
 </body>
 </html>
