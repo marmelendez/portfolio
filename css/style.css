@@ -310,7 +310,16 @@ img {
 
     .work-container {
         display: grid;
+        grid-template-columns: repeat(2, 50%);
 
+    }
+
+    .project-item {
+        display: flex;
+    }
+
+    .project-img, .project-description{
+        flex-basis: 50%;
     }
 
     /*.vl {
@@ -348,10 +357,12 @@ img {
 
 
 .program-item {
-    background: var(--orange);
-    border-radius: 5rem;
+    background: var(--white);
+    text-align: left;
     padding: 3rem;
     margin: 2rem;
+    border-radius: 5rem;
+    box-shadow: 17px 17px 30px 0px #EBEBEB ;
 }
 
 .program-item img {
@@ -401,7 +412,7 @@ img {
     background: var(--white);
     text-align: left;
     padding: 3rem;
-    margin: 2rem;
+    margin: 3rem;
     border-radius: 5rem;
     box-shadow: 17px 17px 30px 0px #EBEBEB ;
 }
@@ -420,7 +431,7 @@ img {
 
 .btn-repository {
     text-align: center;
-    width: 60%;
+    width: 70%;
     background: var(--orange);
     border-radius: 1rem;
     padding: 0 1rem;
