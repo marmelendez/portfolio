@@ -260,23 +260,23 @@ img {
 
 .general-section {
     text-align: center;
-    padding: 0 5%;
+    padding: 0 2%;
+}
+
+.general-section-title {
+    margin: 2rem;
 }
 
 .aboutme-description {
     text-align: justify;
-    padding: 2rem;
 }
 
-.aboutme-img a {
-    color: var(--lightaqua);
-    font-size: 10px;
-}
-
-.aboutme-img a:hover {
-    color: var(--orange);
-    font-size: 12px;
-    transition: all .3s ease-in-out;
+.contact-links {
+    background-color: var(--orange);
+    border-radius: 5rem;
+    padding: 2rem 5rem;
+    margin-bottom: 5rem;
+    border: 2px solid #fff;
 }
 
 @media (min-width: 768px) {
@@ -284,24 +284,16 @@ img {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 2rem;
     }
 
     .aboutme-description {
         width: 60%;
-      }
-}
+    }
 
-.contact-links-img {
-    background-color: var(--orange);
-    border-radius: 5rem;
-    padding: 2rem 5rem;
-    margin-bottom: 5rem;
-}
-
-.contact-img {
-    padding: 2rem 0;
-    border: 2px solid #fff;
-    border-radius: 5rem;
+    .contact-links {
+        width: 30%;
+    }
 }
 
 .contact-links a{
@@ -318,14 +310,13 @@ img {
     border-radius: 20rem;
 }
 
-.contact-img a {
+.contact-gif a {
     color: var(--lightaqua);
     font-size: 10px;
 }
 
-.contact-img a:hover{
+.contact-gif a:hover{
     color: var(--blue);
     font-size: 12px;
     transition: all .3s ease-in-out;
 }
-
