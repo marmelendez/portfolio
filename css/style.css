@@ -52,15 +52,15 @@ h1 {
 }
 
 h2 {
-    font-size: 4rem;
-}
-
-h3 {
     font-size: 3.2rem;
 }
 
+h3 {
+    font-size: 2rem;
+}
+
 h4 {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
 }
 
 img {
@@ -264,7 +264,7 @@ img {
 }
 
 .general-section-title {
-    margin: 2rem;
+    margin: 2.5rem 0;
 }
 
 .aboutme-description {
@@ -319,4 +319,20 @@ img {
     color: var(--blue);
     font-size: 12px;
     transition: all .3s ease-in-out;
+}
+
+
+.program-item {
+    background: var(--orange);
+    border-radius: 5rem;
+    padding: 3rem;
+    margin: 2rem;
+}
+
+.certificate-item {
+    color: var(--white);
+    background: var(--blue);
+    border-radius: 5rem;
+    padding: 3rem;
+    margin: 2rem;
 }

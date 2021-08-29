@@ -13,7 +13,8 @@
 
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Work+Sans&display=swap" crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet">
-    
+    <script src="https://kit.fontawesome.com/cacdd04d0e.js" crossorigin="anonymous"></script>
+
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -27,7 +28,7 @@
                 <nav class="nav">
                     <a href="index.html" class="nav__link">Home</a>
                     <a href="aboutme.html" class="nav__link">About me</a>
-                    <a href="resume.html" class="nav__link selected-nav">Resume</a>
+                    <a href="resume.html" class="nav__link selected-nav">Achievements</a>
                     <a href="portfolio.html" class="nav__link">Portfolio</a>
                     <a href="contact.html" class="nav__link">Contact</a>
                 </nav>
@@ -39,7 +40,45 @@
     </header>
 
     <section class="general-section">
-        <h1>Resume</h1>
+
+        <h1 class="general-section-title">Achievements</h1>
+        <span style="font-size: 32px; color: var(--blue);"> <i class="fas fa-star"></i> </span>
+        
+        <h2 class="no-margin no-padding">Programs</h2>
+        <div class="program-item">
+            <img src="img/mlsa.png" alt="MLSA certificate" width=50%>
+            <h3>Microsoft Learn Student Ambassador</h3>
+            <p>I'm part of the MLSA program since july 2021.</p>
+            <iframe src="pdf/alphacertificate.pdf" width="100%" height="auto">
+            </iframe>
+        </div>
+
+        <div class="program-item">
+            <img src="img/abcs.png" alt="ABSC program" width=50%>
+            <h3>Facebook Above and Beyond Computer Science (ABCS)</h3>
+            <p>I'm part of the MLSA program since july 2021.</p>
+        </div>
+
+        <div class="program-item">
+            <img src="img/beduscholarship.png" alt="Santader Bedu Scholarship" width=50%>
+            <h3>Scholarship for App development in Android from Santander and Bedu</h3>
+            <p>I'm part of the MLSA program since july 2021.</p>
+        </div>
+
+        <span style="font-size: 32px; color: var(--blue);">  <i class="fas fa-certificate"></i></span>
+        <h2 class="no-margin no-padding">Certifications</h2>
+        <div class="certificate-item">
+            <iframe src="pdf/security.pdf" width="100%" height="auto"></iframe>
+            <h3>Finding Your Cybersecurity CareerPath</h3>
+        </div>
+        <div class="certificate-item">
+            <iframe src="pdf/webdevelopment.pdf" width="100%" height="auto"></iframe>
+            <h3>Introduction to Cloud Development with HTML, CSS, and JavaScript</h3>
+        </div>
+        <div class="certificate-item">
+            <iframe src="pdf/tec.pdf" width="100%" height="auto"></iframe>
+            <h3>Merito académico</h3>
+        </div>
     </section>
 
     <script src="js/modernizr.js"></script>
