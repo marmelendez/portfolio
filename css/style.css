@@ -256,8 +256,21 @@ img {
 
 .general-section {
     text-align: center;
+    padding: 0 5%;
+}
+
+.aboutme-description {
+    text-align: justify;
 }
 
 @media (min-width: 768px) {
+    .general-section-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .aboutme-description {
+        width: 70%;
+      }
 }
