@@ -102,7 +102,9 @@ img {
 }
 
 .bar-in-section a:hover {
-    color: var(--orange)
+    color: var(--orange);
+    font-size: 1.8rem;
+    transition: all .3s ease-in-out;
 }
 
 .nav {
@@ -261,6 +263,17 @@ img {
 
 .aboutme-description {
     text-align: justify;
+}
+
+.aboutme-img a {
+    color: var(--lightaqua);
+    font-size: 10px;
+}
+
+.aboutme-img a:hover {
+    color: var(--orange);
+    font-size: 12px;
+    transition: all .3s ease-in-out;
 }
 
 @media (min-width: 768px) {
