@@ -319,7 +319,7 @@ img {
 
 .aboutme-description {
     text-align: justify;
-    padding: 0 5rem;
+    padding: 0 3rem;
 }
 
 @media (min-width: 768px) {
@@ -495,18 +495,6 @@ img {
     transition: all .5s ease-in-out;
     border-radius: 20rem;
 }
-
-.contact-gif a {
-    color: var(--lightaqua);
-    font-size: 10px;
-}
-
-.contact-gif a:hover{
-    color: var(--blue);
-    font-size: 12px;
-    transition: all .3s ease-in-out;
-}
-
 
 @media (min-width: 768px) {
     .contact-links {
