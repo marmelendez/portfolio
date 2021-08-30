@@ -310,6 +310,7 @@ img {
 }
 
 .general-section-title {
+    font-size: 3.2rem;
     margin: 2.5rem 0;
 }
 
@@ -338,6 +339,7 @@ img {
 /*----------------------------------*/
 /*---------- Achievements ----------*/
 /*----------------------------------*/
+
 .achievement-section-links a{
     color: var(--lightaqua);
     padding: 0.5rem;
@@ -366,6 +368,10 @@ img {
 }
 
 @media (min-width: 1080px) {
+    .general-section-title {
+        font-size: 4.8rem;
+    }
+
     .achievement-section {
         display: flex;
     }
