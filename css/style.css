@@ -184,7 +184,7 @@ img {
 .menu-btn-links-general {
     display: block;
     background-color: var(--blue);
-    border-radius: 0 0 5rem 5rem;
+    border-radius: 0 0 2rem 2rem;
 }
 
 .menu-btn-links {
