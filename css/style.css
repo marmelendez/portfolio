@@ -156,6 +156,7 @@ img {
 
 .nav__link {
     display: block;
+    margin-left: 2rem;
     text-align: center;
     font-size: 1.8rem;
     color: var(--white);
