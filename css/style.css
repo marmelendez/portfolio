@@ -319,6 +319,7 @@ img {
 
 .aboutme-description {
     text-align: justify;
+    padding: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -364,7 +365,7 @@ img {
     border-radius: 2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
     .achievement-section {
         display: flex;
     }
@@ -377,6 +378,7 @@ img {
 /*-------------------------------*/
 /*---------- Portfolio ----------*/
 /*-------------------------------*/
+
 .project-img-app {
     width: 60%;
     padding-left: 30%;
@@ -420,7 +422,7 @@ img {
 
 .btn-repository {
     text-align: center;
-    width: 70%;
+    width: 100%;
     background: var(--orange);
     border-radius: 1rem;
     padding: 0 1rem;
@@ -441,12 +443,7 @@ img {
     margin-bottom: 1rem;
 }
 
-@media (min-width: 768px) {
-    .download-resume {
-        display:inline;
-        padding: 1rem 2rem;
-    }
-
+@media (min-width: 1000px) {
     .work-container {
         display: grid;
         grid-template-columns: repeat(2, 50%);
@@ -467,6 +464,10 @@ img {
         width: 100%;
         height: 100%;
         padding-left: 0rem;
+    }
+
+    .btn-repository {
+        width: 80%;
     }
 }
 
