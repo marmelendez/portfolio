@@ -366,6 +366,7 @@ img {
 
 .program-item img {
     border-radius: 2rem;
+    max-height: 200px;
 }
 
 @media (min-width: 1080px) {
