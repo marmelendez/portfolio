@@ -390,9 +390,12 @@ img {
 /*---------- Portfolio ----------*/
 /*-------------------------------*/
 
-.project-img-app {
-    width: 60%;
-    padding-left: 30%;
+.project-img img{
+    display: block;
+    min-height: 20rem;
+    max-height: 30rem;
+    margin: auto;
+    
 }
 
 .download-resume {
@@ -424,7 +427,8 @@ img {
     margin-top: 1rem;
 }
 
-.tecnologies {
+.tecnologies,
+.description {
     font-family: var(--generalFont);
     font-size: 1.6rem;
     line-height: 2;
@@ -457,24 +461,8 @@ img {
 @media (min-width: 1000px) {
     .work-container {
         display: grid;
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(3, 33%);
 
-    }
-
-    .project-item-flex {
-        display: flex;
-        justify-content: center;
-    }
-
-    .project-img, .project-description{
-        flex-basis: 50%;
-        align-self: center;
-    }
-
-    .project-img-app {
-        width: 100%;
-        height: 100%;
-        padding-left: 0rem;
     }
 
     .btn-repository {
