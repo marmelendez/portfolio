@@ -319,6 +319,10 @@ img {
 /*---------- About me ----------*/
 /*------------------------------*/
 
+.aboutme-img {
+    max-width: 35%;
+}
+
 .aboutme-description {
     text-align: justify;
     padding: 0 3rem;
