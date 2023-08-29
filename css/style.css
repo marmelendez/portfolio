@@ -1,18 +1,25 @@
 /* 
 font-family: 'Raleway', sans-serif;
 font-family: 'Work Sans', sans-serif;
+
+font-family: 'Inter', sans-serif;
+font-family: 'Share Tech', sans-serif;
 */
 
 :root {
-    --generalFont: 'Work Sans', sans-serif;
-    --mainFont: 'Raleway', sans-serif;
+    --generalFont: 'Inter', sans-serif;
+    --mainFont: 'Share Tech', sans-serif;
 
     --white: #F6F5F5;
     --black: rgb(0, 0, 0);
-    --blue: #070D59; /*31326F*/
     --orange: #EE6F57;
-    --aqua: #9DDFD3;
     --lightaqua: #1F3C88; /*DBF6E9*/
+    --dark-blue: #071E3D;
+    --blue: #1F4287;
+    --aqua-blue: #278EA5;
+    --aqua: #21E6C1;
+    --white: #EAF6F6;
+    --red: #E64848;
 }
 
 html {
