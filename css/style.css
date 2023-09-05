@@ -362,20 +362,6 @@ section {
     transition: all .3s ease-in-out;
 }
 
-
-/*----------------------------*/
-/*-------- Javascript --------*/
-/*----------------------------*/
-
-.open {
-    border-radius: 1rem 1rem 0 0;
-}
-
-.hide {
-    display: none;
-}
-
-
 @media (min-width: 768px) {
     #section-aboutme, #section-experience{
         padding: 3rem 30rem;
@@ -397,4 +383,16 @@ section {
         display: flex;
         align-items: center;
     }
+}
+
+/*----------------------------*/
+/*-------- Javascript --------*/
+/*----------------------------*/
+
+.open {
+    border-radius: 1rem 1rem 0 0;
+}
+
+.hide {
+    display: none;
 }
