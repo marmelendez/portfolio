@@ -1,57 +1,883 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio Maribel Melendez">
-    
+
     <title>Portfolio | Mar Melendez</title>
     <!--Preload-->
     <link rel="preload" href="css/normalize.css" as="style">
     <link rel="stylesheet" href="css/normalize.css">
 
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Work+Sans&display=swap" crossorigin="crossorigin" as="font">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Share+Tech&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&family=Share+Tech&display=swap"
+        rel="stylesheet">
 
+    <script src="https://kit.fontawesome.com/cacdd04d0e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="homepage-bg">
-    <header id="home"> <!--START OF TOP BAR-->
-        <div class="bar">
-            <a href="index.html" class="logo">
-                <h1 class="logo__name no-margin text-center"><<span class="logo__bold">hello</span>></h1>                
-            </a>
+<body>
+    <div class="wrapper">
+        <!---------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------
+        --------------------------------------START OF MAIN SECTION------------------------------
+        -----------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------------------------->
+        <section class="homepage-bg">
+            <header id="home"> <!--START OF TOP BAR-->
+                <nav class="nav">
+                    <a href="#section-aboutme" class="nav__link">
+                        <span class="color-aquablue">00</span>
+                        <br> About me
+                    </a>
+                    <a href="#section-experience" class="nav__link">
+                        <span class="color-aquablue">01</span>
+                        <br> Experience
+                    </a>
+                    <a href="#section-projects" class="nav__link">
+                        <span class="color-aquablue">02</span>
+                        <br> Projects
+                    </a>
+                </nav>
+            </header> <!--END OF TOP BAR-->
 
-            <nav class="nav" id="menu-links">
-                <a href="index.html" class="nav__link selected-nav">Home</a>
-                <a href="aboutme.html" class="nav__link">About me</a>
-                <a href="resume.html" class="nav__link">Experience</a>
-                <a href="portfolio.html" class="nav__link">Portfolio</a>
-                <a href="contact.html" class="nav__link">Contact</a>
-            </nav>
-            
-            <div class="menu-btn" id="menu">
-                <div class="menu-btn__burger"></div>
+            <main> <!--START OF MAIN TITLE-->
+                <div class="header-text">
+                    <h2 class="no-margin color-aqua main-font">Hi there,</h2>
+                    <h1 class="no-margin">I'm Maribel Melendez</h2>
+                        <p class="no-margin">Welcome to my portfolio, where tech meets creativity. Keep scrolling to
+                            discover what I've been up to! 😄</p>
+                </div>
+                <div class="contact-links"> <!--START OF CONTACT LINKS-->
+                    <div class="contact__icon"> <!--LINKEDIN LINK-->
+                        <a href="https://www.linkedin.com/in/maribel-melendezd/" target="_blank">
+                            <span style="font-size: 48px; color: var(--aqua);">
+                                <i class="fab fa-linkedin"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="contact__icon"> <!--GITHUB LINK-->
+                        <a href="https://github.com/marmelendez" target="_blank">
+                            <span style="font-size: 48px; color: var(--aqua);">
+                                <i class="fab fa-github"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <div class="contact__icon"> <!--EMAIL LINK-->
+                        <a href="mailto:lizbethmelendez@live.com" target="_blank">
+                            <span style="font-size: 48px; color: var(--aqua);">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div> <!--END OF CONTACT LINKS-->
+            </main> <!--END OF MAIN TITLE-->
+        </section>
+        <!---------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------
+        --------------------------------------END OF MAIN SECTION--------------------------------
+        -----------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------------------------->
+
+
+
+
+        <!---------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------
+        ----------------------------------START OF ABOUT ME SECTION------------------------------
+        -----------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------------------------->
+        <section id="section-aboutme">
+            <h2 class="section__title">
+                <span class="color-aquablue">00</span>
+                <br> About me
+                <span class="color-aquablue">|</span>
+            </h2>
+            <p class="section__description">Hello, I'm Maribel Melendez, a Computer Science student at Tecnológico de
+                Monterrey's Guadalajara campus. My journey in the world of technology is driven by curiosity and a
+                thirst for knowledge. I find joy in continuously learning, both from experiences and from the insights
+                shared by others.
+                <br><br>
+                My current areas of focus are UI/UX design and full-stack development. I relish the challenge of
+                creating user-friendly interfaces that not only function seamlessly but also delight users with their
+                aesthetics.
+                <br><br>
+                In my free time, you might catch me enjoying movies, getting crafty with arts and crafts, or going for
+                runs outdoors.
+        </section>
+        <!---------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------
+        ----------------------------------END OF ABOUT ME SECTION--------------------------------
+        -----------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------------------------->
+
+
+
+
+        <!---------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------
+        ----------------------------START OF WORK EXPERIENCE SECTION-----------------------------
+        -----------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------------------------->
+        <section id="section-experience">
+            <h2 class="section__title no-margin">
+                <span class="color-aquablue">02</span>
+                <br> Work Experience
+                <span class="color-aquablue">|</span>
+            </h2>
+            <div class="resume__container">
+                <a class="primary_button" href="pdf/myresume.pdf" target="blank">My resume</a> 
             </div>
-    </header> <!--END OF TOP BAR-->
 
-    <main> <!--START OF MAIN TITLE-->
-        <div class="header-text" id="title">
-            <h2 class="no-margin"> Hi there!, I'm Mar Melendez</h2>
-            <h1 class="no-margin" id="typing-text" ></h2>
-            <p class="no-margin"> thank you for visiting, here you can learn a little more about me and the places and projects I have worked on.</p>
-        </div>
-    </main> <!--END OF MAIN TITLE-->
+            <div class="experience-card"> <!--START OF MICROSOFT EXPERIENCE-->
+                <div class="experience-card__top open">
+                    <div class="card-left">
+                        <div class="circle circle__aqua"></div>
+                        <div class="circle circle__red"></div>
+                        <h3 class="no-margin no-padding">Microsoft
+                            <span class="font-light"> \ Software Engineer Intern</span>
+                        </h3>
+                    </div>
+
+                    <div>
+                        <p class="experience-card__date no-margin no-padding font-light">August – December 2023</p>
+                    </div>
+                </div>
+
+                <div class="experience-card__bottom">
+                    <div class="experience-card__img">
+                        <img src="images/microsoft-logo.svg.png" alt="Microsoft logo">
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Automating the generation of C# client code by developing an API JSON specification
+                                document in order to reduce human error, improve efficiency and facilitate maintenance
+                                and upgrades of various services.</li>
+                        </ul>
+
+                        <p>
+                            <span style="font-size: 30px; color: var(--aqua);">
+                                <i class="fa fa-map-marker"></i>
+                            </span>
+                            Redmond, WA, USA
+                        </p>
+
+                        <div>
+                            <p class="primary_button">C#</p>
+                            <p class="primary_button">Visual Studio</p>
+                            <p class="primary_button">Swagger</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--END OF MICROSOFT EXPERIENCE-->
+
+            <div class="experience-card"> <!--START OF LINKEDIN EXPERIENCE-->
+                <div class="experience-card__top">
+                    <div class="card-left">
+                        <div class="circle circle__aqua"></div>
+                        <div class="circle circle__red"></div>
+                        <h3 class="no-margin no-padding">LinkedIn
+                            <span class="font-light"> \ Software Engineer Intern</span>
+                        </h3>
+                    </div>
+
+                    <div>
+                        <p class="experience-card__date no-margin no-padding font-light">May – August 2023</p>
+                    </div>
+                </div>
+
+                <div class="experience-card__bottom hide">
+                    <div class="experience-card__img">
+                        <img src="images/logo-linkedin.png" alt="LinkedIn logo">
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Developed a one-page design document to gather feedback, iterated based on input, and
+                                implemented a new endpoint to provide data to client platforms (web and mobile),
+                                including filtering to reduce client-side workload. </li>
+                            <li>Conducted Java unit testing and collaborated with client developers for seamless
+                                integration. </li>
+                        </ul>
+                        <p>
+                            <span style="font-size: 30px; color: var(--aqua);">
+                                <i class="fa fa-map-marker"></i>
+                            </span>
+                            New York, NY, USA
+                        </p>
+                        <div>
+                            <p class="primary_button">Java</p>
+                            <p class="primary_button">Intellij idea</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--END OF LINKEDIN EXPERIENCE-->
+
+            <div class="experience-card"> <!--START OF WOKO EXPERIENCE-->
+                <div class="experience-card__top">
+                    <div class="card-left">
+                        <div class="circle circle__aqua"></div>
+                        <div class="circle circle__red"></div>
+                        <h3 class="no-margin no-padding">Woko
+                            <span class="font-light"> \ Software Engineer Intern</span>
+                        </h3>
+                    </div>
+
+                    <div>
+                        <p class="experience-card__date no-margin no-padding font-light">October – December 2022</p>
+                    </div>
+                </div>
+
+                <div class="experience-card__bottom hide">
+                    <div class="experience-card__img">
+                        <img src="images/logo-woko.png" alt="Woko logo">
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Migrated website from WordPress to HTML, CSS, and JavaScript, improving performance and
+                                customization.</li>
+                            <li>Added a new module to the management system for real-time client status tracking,
+                                payment records, and future payments, enhancing client management and financial analysis
+                                capabilities.</li>
+                        </ul>
+                        <p>
+                            <span style="font-size: 30px; color: var(--aqua);">
+                                <i class="fa fa-map-marker"></i>
+                            </span>
+                            Monterrey, NL, Mexico
+                        </p>
+                        <div>
+                            <p class="primary_button">HTML</p>
+                            <p class="primary_button">CSS</p>
+                            <p class="primary_button">JavaScript</p>
+                            <p class="primary_button">PHP</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--END OF WOKO EXPERIENCE-->
+
+            <div class="experience-card"> <!--START OF LINKEDIN EXPERIENCE-->
+                <div class="experience-card__top">
+                    <div class="card-left">
+                        <div class="circle circle__aqua"></div>
+                        <div class="circle circle__red"></div>
+                        <h3 class="no-margin no-padding">LinkedIn
+                            <span class="font-light"> \ Android Engineer Intern</span>
+                        </h3>
+                    </div>
+
+                    <div>
+                        <p class="experience-card__date no-margin no-padding font-light">June – September 2022</p>
+                    </div>
+                </div>
+
+                <div class="experience-card__bottom hide">
+                    <div class="experience-card__img">
+                        <img src="images/logo-linkedin.png" alt="LinkedIn logo">
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Implemented four messaging sounds with the SoundPoolAPI to provide user feedback for
+                                actions.</li>
+                            <li>Enhanced accessibility by introducing a swipe gesture for quick access to 3 inbox
+                                shortcuts while achieving reusability of action methods through code refactoring,
+                                utilizing both Java and Kotlin for improved efficiency and maintainability.</li>
+                            <li>Designed, wrote and executed unit tests in Kotlin to ensure inbox shortcuts'
+                                functionality and consistency.</li>
+                        </ul>
+                        <p>
+                            <span style="font-size: 30px; color: var(--aqua);">
+                                <i class="fa fa-map-marker"></i>
+                            </span>
+                            San Francisco, CA, USA
+                        </p>
+                        <div>
+                            <p class="primary_button">Java</p>
+                            <p class="primary_button">Kotlin</p>
+                            <p class="primary_button">Android Studio</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--END OF LINKEDIN EXPERIENCE-->
+
+            <div class="experience-card"> <!--START OF BOSCH EXPERIENCE-->
+                <div class="experience-card__top">
+                    <div class="card-left">
+                        <div class="circle circle__aqua"></div>
+                        <div class="circle circle__red"></div>
+                        <h3 class="no-margin no-padding">BOSCH
+                            <span class="font-light"> \ Test Engineer Intern</span>
+                        </h3>
+                    </div>
+
+                    <div>
+                        <p class="experience-card__date no-margin no-padding font-light">October 2021 – April 2022</p>
+                    </div>
+                </div>
+
+                <div class="experience-card__bottom hide">
+                    <div class="experience-card__img">
+                        <img src="images/logo-bosch.png" alt="BOSCH logo">
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li>Optimized execution time by automating 35 test cases with vTEST tool. </li>
+                            <li> over 50 test cases to verify that the product meets customer requirements using CANoe,
+                                IBM
+                                Doors and RQM.</li>
+                        </ul>
+                        <p>
+                            <span style="font-size: 30px; color: var(--aqua);">
+                                <i class="fa fa-map-marker"></i>
+                            </span>
+                            Guadalajara, JAL, Mexico
+                        </p>
+                        <div>
+                            <p class="primary_button">vTest</p>
+                            <p class="primary_button">CANoe</p>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--END OF BOSCH EXPERIENCE-->
+        </section>
+        <!---------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------
+        ----------------------------END OF WORK EXPERIENCE SECTION-------------------------------
+        -----------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------------------------->
+
+
+
+
+        <!---------------------------------------------------------------------------------------
+        -----------------------------------------------------------------------------------------
+        --------------------------------START OF PROJECTS SECTION--------------------------------
+        -----------------------------------------------------------------------------------------
+        ---------------------------------------------------------------------------------------->
+        <section id="section-projects">
+            <h2 class="section__title">
+                <span class="color-aquablue">03</span>
+                <br> Projects
+                <span class="color-aquablue">|</span>
+            </h2>
+
+            <nav class="project-nav">
+                <a class="project-nav__link font-light" id="web-nav-link">Web |</a>
+                <a class="project-nav__link font-light" id="mobile-nav-link"> Mobile |</a>
+                <a class="project-nav__link font-light" id="design-nav-link">Design |</a>
+                <a class="project-nav__link font-light" id="others-nav-link">Others </a>
+
+            </nav>
+
+            <div class="project-card-container" id="mobile-projects"><!--START OF MOBILE PROJECTS-->
+                <div class="project-container project-container__mobile"> <!--START OF FOOD BANK PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/food-bank.png" alt="BOSCH logo">
+                    </div>
+                    <div>
+
+                        <div class="project-title">
+                            <h3>Food Bank of Guadalajara</h3>
+                        </div>
+                        <ul>
+                            <li>Designed an application for 77 food bank partners to access donation history and improve
+                                communication.</li>
+                            <li>Implemented login/sign-in screens and forms using Kotlin.</li>
+                            <li>Integrated PayPal and Firebase services for authentication, analytics, and user
+                                interactions.</li>
+                        </ul>
+
+                        <div class="project-container_bottom">
+                            <div class="project__technologies">
+                                <img class="project__icon"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" />
+                                <img class="project__icon"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                                <img class="project__icon"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />
+                            </div>
+
+                            <div class="project__links">
+                                <a href="https://github.com/marmelendez/banco_alimentos" target="_blank">
+                                    <span style="font-size: 40px; color: var(--aqua);">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--END OF FOOD BANK PROJECT-->
+
+                <div class="project-container project-container__mobile"> <!--START OF MODA STORE PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/moda-store.png" alt="BOSCH logo">
+                    </div>
+
+                    <div>
+                        <div class="project-title">
+                            <h3>MODA Store</h3>
+                        </div>
+                        <ul>
+                            <li>Utilized Android fundamentals to build an intuitive and responsive UI.</li>
+                            <li>Incorporated animations and followed the MVVM architecture.</li>
+                            <li>Conducted unit testing to ensure functionality and improve overall quality.</li>
+                        </ul>
+
+                        <div class="project-container_bottom">
+                            <div class="project__technologies">
+                                <img class="project__icon"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" />
+                                <img class="project__icon"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" />
+                                <img class="project__icon"
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />
+                            </div>
+
+                            <div class="project__links">
+                                <a href="https://github.com/marmelendez/moda-store-android-app" target="_blank">
+                                    <span style="font-size: 40px; color: var(--aqua);">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!--END OF MODA STORE PROJECT-->
+
+            </div><!--END OF MOBILE PROJECTS-->
+
+            <div class="project-card-container" id="design-projects"><!--START OF DESIGN PROJECTS-->
+                <div class="project-container"> <!--START OF SOUNDWAVE PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/soundwave-design.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Soundwave</h3>
+                    </div>
+                    <ul>
+                        <li>Design for React Music Website with Node.js API and Railway Hosting Deployment</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies"></div>
+                        <div class="project__links">
+                            <a href="https://www.figma.com/file/nwfRpMUTiqPhXx2qFVnquX/Soundwave?type=design&node-id=0%3A1&mode=design&t=UE66pG6VD07RJ6PG-1"
+                                target="_blank">
+                                <span style="font-size: 40px; color: var(--aqua);">
+                                    <i class="fa fa-link"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF SOUNDWAVE PROJECT-->
+
+                <div class="project-container"> <!--START OF RECIPE FINDER PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/recipe-design.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Recipe Finder</h3>
+                    </div>
+                    <ul>
+                        <li>Web UI Enhancement</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies"></div>
+                        <div class="project__links">
+                            <a href="https://www.figma.com/file/kiAo9w40NfrFrMelgHCe76/bedu_recipe-finder?type=design&node-id=0%3A1&mode=design&t=CumouQdpzsDzAOe9-1"
+                                target="_blank">
+                                <span style="font-size: 40px; color: var(--aqua);">
+                                    <i class="fa fa-link"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF RECIPE FINDER PROJECT-->
+
+                <div class="project-container"> <!--START OF PORTFOLIO PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/portfolio-design.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Portfolio</h3>
+                    </div>
+                    <ul>
+                        <li>Design for Online Portfolio: Showcasing Academic and Professional Work</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies"></div>
+                        <div class="project__links">
+                            <a href="https://www.figma.com/file/ZkMS9pC21apfW9dznqN1bk/Portfolio?type=design&node-id=0%3A1&mode=design&t=UzF7s635BHeyVkTb-1"
+                                target="_blank">
+                                <span style="font-size: 40px; color: var(--aqua);">
+                                    <i class="fa fa-link"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF PORTFOLIO PROJECT-->
+
+                <div class="project-container"> <!--START OF FOOD BANK PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/foodbank-design.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Food Bank</h3>
+                    </div>
+                    <ul>
+                        <li>Design for Kotlin App for Donation History and Communication</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies"></div>
+                        <div class="project__links">
+                            <a href="https://www.figma.com/file/L0s8nUJletMqFXxBdu4RfP/Reto.-Interfaces-de-usuario?type=design&node-id=0%3A1&mode=design&t=p05Pr7lFDH8tpbN7-1"
+                                target="_blank">
+                                <span style="font-size: 40px; color: var(--aqua);">
+                                    <i class="fa fa-link"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF FOOD BANK PROJECT-->
+
+                <div class="project-container"> <!--START OF MODA STORE PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/modastore-design.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Moda Store</h3>
+                    </div>
+                    <ul>
+                        <li>Design for Android Clothing Store App</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies"></div>
+                        <div class="project__links">
+                            <a href="https://www.figma.com/file/CgTBCmmRmLiYO1QwHiP2KQ/MODA-Store-Project?type=design&node-id=0%3A1&mode=design&t=xoS2JyuH8v1EAMJy-1"
+                                target="_blank">
+                                <span style="font-size: 40px; color: var(--aqua);">
+                                    <i class="fa fa-link"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF MODA STORE PROJECT-->
+            </div><!--END OF DESIGN PROJECTS-->
+
+            <div class="project-card-container" id="other-projects"><!--START OF OTHER PROJECTS-->
+                <div class="project-container"> <!--START OF LEXICAL ANALYZER PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/lexical.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Java Lexical Analyzer</h3>
+                    </div>
+                    <ul>
+                        <li>Created a Java-based lexical analyzer that converts text files into HTML format,
+                            highlighting predefined keywords.</li>
+                        <li>Gained insights into compiler concepts and parallel programming.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                            <img class="project__icon"
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+                        </div>
+
+                        <div class="project__links">
+                            <a href="https://github.com/marmelendez/archivos_analizador" target="_blank">
+                                <span style="font-size: 40px; color: var(--aqua);">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF LEXICAL ANALYZER PROJECT-->
+
+                <div class="project-container"> <!--START OF 2D GAME PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/endless-game.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Endless Runner Game: Unity 2D Adventure</h3>
+                    </div>
+                    <ul>
+                        <li>Developed a 2D Unity endless runner game, enabling user interaction via keyboard inputs for
+                            entertainment.</li>
+                        <li>Collect coins and navigate obstacles within the game for an engaging player experience.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" />
+                        </div>
+
+                        <div class="project__links">
+                            <a href="https://simmer.io/@marfly_/endless-game" target="_blank">
+                                <span style="font-size: 32px; color: var(--aqua);">
+                                    <i class="fa fa-link"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF 2D GAME PROJECT-->
+
+                <div class="project-container"> <!--START OF PAYMENT CONTROL PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/javadesktopapp.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Java Desktop App with SQL Database</h3>
+                    </div>
+                    <ul>
+                        <li>Designed a Java desktop application with an SQL database.</li>
+                        <li>Enabled efficient management of company loans.</li>
+                        <li>Provided the option to download payment records, reducing manual tasks and minimizing the risk of human error.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                        </div>
+
+                        <div class="project__links"></div> 
+                    </div>
+                </div> <!--END OF PAYMENT CONTROL PROJECT-->
+
+            </div><!--END OF OTHER PROJECTS-->
+
+            <div class="project-card-container hide" id="web-projects"> <!--START OF WEB PROJECTS-->
+                <div class="project-container"> <!--START OF RECIPE FINDER PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/recipe-easy.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Recipe Finder</h3>
+                    </div>
+                    <ul>
+                        <li>Enhanced website UI by creating a responsive page with Webpack.</li>
+                        <li>Designed and implemented a header, meals, and categories sections using HTML and CSS.</li>
+                        <li>Developed JavaScript functions to fetch and dynamically render categories from
+                            TheFreeMealAPI.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg" />
+                        </div>
+                        <div class="project__links">
+                            <a href="https://github.com/jubaan/bedu_recipe-finder" target="_blank">
+                                <span style="font-size: 32px; color: var(--aqua);">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                            </a>
+                            <a href="https://delicate-cassata-f669ee.netlify.app/" target="_blank">
+                                <span style="font-size: 32px; color: var(--aqua);">
+                                    <i class="fa fa-link"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF RECIPE FINDER PROJECT-->
+
+                <div class="project-container"> <!--START OF SOUNDWAVE PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/soundwave.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Soundwave</h3>
+                    </div>
+                    <ul>
+                        <li>Developed a music website with a React front end that consumes data from an implemented
+                            Node.js API.</li>
+                        <li>Implemented a MySQL backend for efficient data storage and management.</li>
+                        <li>Successfully deployed the website on Railway hosting, earning recognition as the best
+                            project in the course.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                                <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                                <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                                <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                        </div>
+                        <div class="project__links">
+                            <a href="https://github.com/francisco-solis99/sound-wave-app" target="_blank">
+                                <span style="font-size: 32px; color: var(--aqua);">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF SOUNDWAVE PROJECT-->
+
+                <div class="project-container"> <!--START OF TRAFFIC SIMULATION PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/traffic.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Traffic simulation</h3>
+                    </div>
+                    <ul>
+                        <li>Modeled traffic patterns on two streets using AgentPy and simulated data for 1 to 20 cars.</li>
+                        <li>Displayed the results in a web interface using three.js for effective visualization and analysis.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original-wordmark.svg" />
+                        </div>
+                        <div class="project__links">
+                            <a href="https://github.com/marmelendez/modelado_multiagentes" target="_blank">
+                                <span style="font-size: 32px; color: var(--aqua);">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF TRAFFIC SIMULATION PROJECT-->
+
+                <div class="project-container"> <!--START OF TRAVEL API PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/travelapi.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Travel API</h3>
+                    </div>
+                    <ul>
+                        <li>Designed and Modeled a travel API using UML diagrams to plan the structure and functionality.</li>
+                        <li>implemented the API and common methods using Node.js and Express for robust functionality.</li>
+                        <li>Added authentication and authorization mechanisms to restrict access to specific methods, enhancing security and control.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">         
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+                        </div>
+                        <div class="project__links">
+                            <a href="https://github.com/proxyz100/travelAPI" target="_blank">
+                                <span style="font-size: 32px; color: var(--aqua);">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF TRAVEL API PROJECT-->
+
+                <div class="project-container"> <!--START OF READING BLOG PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/blog.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Reading blog</h3>
+                    </div>
+                    <ul>
+                        <li>Created a personal blog template while documenting the reading process for a class.</li>
+                        <li>Leveraged the opportunity to practice front-end skills.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                        </div>
+                        <div class="project__links">
+                            <a href="https://github.com/marmelendez/blog-idiomas" target="_blank">
+                                <span style="font-size: 32px; color: var(--aqua);">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                            </a>
+                            <a href="https://blog-read-space.netlify.app/" target="_blank">
+                                <span style="font-size: 32px; color: var(--aqua);">
+                                    <i class="fa fa-link"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div> <!--END OF READING BLOG PROJECT-->
+
+                <div class="project-container"> <!--START OF IBM PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/ibm.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Peripheral's Loan IBM</h3>
+                    </div>
+                    <ul>
+                        <li>Coordinated React front-end development.</li>
+                        <li>Adhered to IBM's Carbon Design System to optimize development efficiency.</li>
+                        <li>Created an internal tool to help employees manage peripheral device requests and loans.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                        </div>
+                        <div class="project__links"></div>
+                    </div>
+                </div> <!--END OF IBM PROJECT-->
+
+                <div class="project-container"> <!--START OF AMDOCS PROJECT-->
+                    <div class="project-image">
+                        <img class="project-img" src="images/amdocs.png" alt="BOSCH logo">
+                    </div>
+                    <div class="project-title">
+                        <h3>Amdocs</h3>
+                    </div>
+                    <ul>
+                        <li>Collaboratively designed and built a website to track the hiring process.</li>
+                        <li>Maintained regular communication with Amdocs and team members.</li>
+                        <li>Contributed to the creation of the header and the resume table that displays candidate information and status.</li>
+                    </ul>
+
+                    <div class="project-container_bottom">
+                        <div class="project__technologies">
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                            <img class="project__icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+                        </div>
+
+                        <div class="project__links"></div>
+                    </div>
+                </div> <!--END OF AMDOCS PROJECT-->
+            </div> <!--END OF WEB PROJECTS-->
+        </section>
+    </div>
+    <!---------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------
+    ----------------------------------END OF PROJECTS SECTION--------------------------------
+    -----------------------------------------------------------------------------------------
+    ---------------------------------------------------------------------------------------->
 
     <script src="js/modernizr.js"></script>
-    <script src="js/hamburger-btn.js"></script>
-    <script src="js/typing-text.js"></script>
+    <script src="js/functions.js"></script>
 </body>
+
 </html>
